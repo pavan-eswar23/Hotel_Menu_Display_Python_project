@@ -31,7 +31,7 @@ def Bill():
     bill={}
     bill1=[]
     global n
-    n=int(input("ENTER YOUR NO'OF ODERS:"))
+    n=int(input("ENTER YOUR NO'OF ORDERS:"))
     for i in range(n):
         order=input("enter your order:")
         quantity=int(input("enter quantity:"))
@@ -80,11 +80,11 @@ def Bill():
     return bill1
 print(" WELCOME TO THE HOTEL..! ")
 hotel_menu()
-CUSTMER_NAME=input("ENTER CUSTMER NAME:")
-PHONE_NUMBER=int(input("ENTER CUSTMER PHONE NO:"))
+CUSTMER_NAME=input("ENTER CUSTOMER NAME:")
+PHONE_NUMBER=int(input("ENTER CUSTOMER PHONE NO:"))
 BILL_NO=int(input("enter bill no:"))
 Bill()
-print(" THE BILL DETALS ARE :")
+print(" THE BILL DETAILS ARE :")
 print("--------------------------------------------------------")
 print("NAME:",end="")
 print(CUSTMER_NAME,end="           ")
